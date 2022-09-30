@@ -1,0 +1,316 @@
+// {
+  //   "name": { "es": "actividades", "en": "activities" },
+  //   "icon": "<i class='fa-light fa-person-hiking'></i>",
+  //   "words": [
+  //     {
+  //       "en": "learn",
+  //       "ru": "учиться",
+  //       "es": "aprender"
+  //     },
+  //     {
+  //       "en": "read",
+  //       "ru": "читать",
+  //       "es": "leer"
+  //     },
+  //     {
+  //       "en": "cry",
+  //       "ru": "плакать",
+  //       "es": "llorar"
+  //     },
+  //     {
+  //       "en": "play",
+  //       "ru": "играть",
+  //       "es": "jugar"
+  //     },
+  //     {
+  //       "en": "talk",
+  //       "ru": "говорить",
+  //       "es": "hablar"
+  //     },
+  //     {
+  //       "en": "win",
+  //       "ru": "побеждать",
+  //       "es": "ganar"
+  //     },
+  //     {
+  //       "en": "dance",
+  //       "ru": "танцевать",
+  //       "es": "bailar"
+  //     },
+  //     {
+  //       "en": "swim",
+  //       "ru": "плавать",
+  //       "es": "nadar"
+  //     }
+  //   ]
+  // },
+  // {
+  //   "name": { "es": "colores", "en": "colors" },
+  //   "icon": "<i class='fa-light fa-brush'></i>",
+  //   "words": [
+  //     {
+  //       "en": "white",
+  //       "ru": "белый",
+  //       "es": "blanco"
+  //     },
+  //     {
+  //       "en": "yellow",
+  //       "ru": "желтый",
+  //       "es": "amarillo"
+  //     },
+  //     {
+  //       "en": "orange",
+  //       "ru": "оранжевый",
+  //       "es": "naranja"
+  //     },
+  //     {
+  //       "en": "red",
+  //       "ru": "красный",
+  //       "es": "rojo"
+  //     },
+  //     {
+  //       "en": "purple",
+  //       "ru": "фиолетовый",
+  //       "es": "morado"
+  //     },
+  //     {
+  //       "en": "blue",
+  //       "ru": "синий",
+  //       "es": "azul"
+  //     },
+  //     {
+  //       "en": "green",
+  //       "ru": "зеленый",
+  //       "es": "verde"
+  //     },
+  //     {
+  //       "en": "brown",
+  //       "ru": "коричневый",
+  //       "es": "café"
+  //     },
+  //     {
+  //       "en": "pink",
+  //       "ru": "розовый",
+  //       "es": "rosado"
+  //     },
+  //     {
+  //       "en": "black",
+  //       "ru": "черный",
+  //       "es": "negro"
+  //     }
+  //   ]
+  // },
+  // {
+  //   "name": { "es": "familia", "en": "family" },
+  //   "icon": "<i class='fa-light fa-family'></i>",
+  //   "words": [
+  //     {
+  //       "en": "family",
+  //       "ru": "семья",
+  //       "es": "familia"
+  //     },
+  //     {
+  //       "en": "mother",
+  //       "ru": "мама",
+  //       "es": "madre"
+  //     },
+  //     {
+  //       "en": "father",
+  //       "ru": "папа",
+  //       "es": "padre"
+  //     },
+  //     {
+  //       "en": "sister",
+  //       "ru": "сестра",
+  //       "es": "hermana"
+  //     },
+  //     {
+  //       "en": "brother",
+  //       "ru": "брат",
+  //       "es": "hermano"
+  //     },
+  //     {
+  //       "en": "pet",
+  //       "ru": "питомец",
+  //       "es": "mascota"
+  //     },
+  //     {
+  //       "en": "grandma",
+  //       "ru": "бабушка",
+  //       "es": "abuela"
+  //     },
+  //     {
+  //       "en": "grandpa",
+  //       "ru": "дедушка",
+  //       "es": "abuelo"
+  //     }
+  //   ]
+  // },
+  // {
+  //   "name": { "es": "hogar", "en": "home" },
+  //   "icon": "<i class='fa-light fa-house-day'></i>",
+  //   "words": [
+  //     {
+  //       "en": "armchair",
+  //       "ru": "кресло",
+  //       "es": "???"
+  //     },
+  //     {
+  //       "en": "mirror",
+  //       "ru": "зеркало",
+  //       "es": "espejo"
+  //     },
+  //     {
+  //       "en": "kitchen",
+  //       "ru": "кухня",
+  //       "es": "cocina"
+  //     },
+  //     {
+  //       "en": "bed",
+  //       "ru": "кровать",
+  //       "es": "cama"
+  //     },
+  //     {
+  //       "en": "toilet",
+  //       "ru": "туалет",
+  //       "es": "baño"
+  //     },
+  //     {
+  //       "en": "door",
+  //       "ru": "дверь",
+  //       "es": "puerta"
+  //     },
+  //     {
+  //       "en": "window",
+  //       "ru": "окно",
+  //       "es": "ventana"
+  //     },
+  //     {
+  //       "en": "fridge",
+  //       "ru": "холодильник",
+  //       "es": "congelador"
+  //     },
+  //     {
+  //       "en": "chair",
+  //       "ru": "стул",
+  //       "es": "silla"
+  //     },
+  //     {
+  //       "en": "bath",
+  //       "ru": "ванная",
+  //       "es": "baño"
+  //     },
+  //     {
+  //       "en": "house",
+  //       "ru": "дом",
+  //       "es": "casa"
+  //     },
+  //     {
+  //       "en": "couch",
+  //       "ru": "диван",
+  //       "es": "sofá"
+  //     }
+  //   ]
+  // },
+  // {
+  //   "name": { "es": "ciudad", "en": "city" },
+  //   "icon": "<i class='fa-light fa-city'></i>",
+  //   "words": [
+  //     {
+  //       "en": "bus",
+  //       "ru": "автобус",
+  //       "es": "bus"
+  //     },
+  //     {
+  //       "en": "factory",
+  //       "ru": "завод",
+  //       "es": "fabrica"
+  //     },
+  //     {
+  //       "en": "park",
+  //       "ru": "парк",
+  //       "es": "parque"
+  //     },
+  //     {
+  //       "en": "excavator",
+  //       "ru": "экскаватор",
+  //       "es": "excavadora"
+  //     },
+  //     {
+  //       "en": "city",
+  //       "ru": "город",
+  //       "es": "ciudad"
+  //     },
+  //     {
+  //       "en": "church",
+  //       "ru": "церковь",
+  //       "es": "iglesia"
+  //     },
+  //     {
+  //       "en": "police",
+  //       "ru": "полиция",
+  //       "es": "policia"
+  //     },
+  //     {
+  //       "en": "building",
+  //       "ru": "здание",
+  //       "es": "edificio"
+  //     },
+  //     {
+  //       "en": "subway",
+  //       "ru": "метро",
+  //       "es": "metro"
+  //     },
+  //     {
+  //       "en": "taxi",
+  //       "ru": "такси",
+  //       "es": "taxi"
+  //     }
+  //   ]
+  // },
+  // {
+  //   "name": {"es": "emociones",  "en": "emotions"},
+  //   "icon": "<i class='fa-light fa-face-laugh-wink'></i>",
+  //   "words": [
+  //     {
+  //       "en": "happy",
+  //       "ru": "счастье",
+  //       "es": "feliz"
+  //     },
+  //     {
+  //       "en": "confusion",
+  //       "ru": "смущение",
+  //       "es": "confusion"
+  //     },
+  //     {
+  //       "en": "sad",
+  //       "ru": "грусть",
+  //       "es": "triste"
+  //     },
+  //     {
+  //       "en": "excitement",
+  //       "ru": "возбуждение",
+  //       "es": "emocionado"
+  //     },
+  //     {
+  //       "en": "anxiety",
+  //       "ru": "беспокойство",
+  //       "es": "ansiedad"
+  //     },
+  //     {
+  //       "en": "friendship",
+  //       "ru": "дружба",
+  //       "es": "amistad"
+  //     },
+  //     {
+  //       "en": "love",
+  //       "ru": "любовь",
+  //       "es": "amor"
+  //     },
+  //     {
+  //       "en": "anger",
+  //       "ru": "злость",
+  //       "es": "ira"
+  //     }
+  //   ]
+  // }

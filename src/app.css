@@ -1,0 +1,151 @@
+/* Toggle slide */
+.switch {
+  display: inline-block;
+  height: 34px;
+  position: relative;
+  width: 60px;
+}
+
+.switch input {
+  display: none;
+}
+
+.slider {
+  background-color: #ccc;
+  bottom: 0;
+  cursor: pointer;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: 0.4s;
+}
+
+.slider:before {
+  background-color: #fff;
+  bottom: 4px;
+  content: '';
+  height: 26px;
+  left: 4px;
+  position: absolute;
+  transition: 0.4s;
+  width: 26px;
+}
+
+input:checked + .slider {
+  background-color: #66bb6a;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+/* Toggle slide */
+
+
+.single-card,
+.category-card {
+  /* width: 100px;
+    height: 100px;
+    background-color: red; */
+  flex-basis: 20%;
+  height: 250px;
+  margin-bottom: 15px;
+}
+
+.cards-container {
+  display: flex;
+  /* justify-content: center; */
+  flex-wrap: wrap;
+}
+
+.card-image {
+  width: 200px;
+  height: 200px;
+}
+
+.card-description {
+  display: flex;
+  justify-content: space-between;
+  background-color: gray;
+}
+
+.card-inner {
+  position: relative;
+  transition: transform 0.5s;
+  transform-style: preserve-3d;
+  height: inherit;
+}
+
+.single-card:hover {
+  /* transform: rotateY(180deg); */
+  transform: scale(1.08);
+  transition: 0.4s;
+}
+.is-flipped {
+  transform: rotateY(180deg);
+}
+
+.flip-card {
+  width: 20px;
+  background-image: url('./data/img/flip.svg');
+  background-repeat: no-repeat;
+  margin: 10px 10px 0 0;
+}
+.card-front {
+  position: absolute;
+  z-index: 3;
+  left: 0;
+  right: 0;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.card-back {
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+  height: inherit;
+}
+
+.card-back-description {
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.play-controls {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: gray;
+}
+
+
+.footer-container{
+    width: 100%;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0px;
+    height: 50px;
+}
+
+.play-repeat-btn{
+    border: 1px solid;
+    border-radius: 5px;
+    height: 50px;
+    font-size: 23px;
+    margin: 10px 10px;
+    width: 150px;
+    background-color: lavender;
+   
+}

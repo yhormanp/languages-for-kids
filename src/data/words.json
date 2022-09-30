@@ -1,0 +1,252 @@
+[
+  {
+    "name": {
+      "es": "Acciones",
+      "en": "Actions"
+    },
+    "icon": "action1.png",
+    "words": [
+      {
+        "en": "cry",
+        "es": "llorar",
+        "ru": "ракета"
+      }
+    ]
+  },
+  {
+    "name": {
+      "es": "comida",
+      "en": "food"
+    },
+    "icon": "action2.png",
+    "words": [
+      {
+        "en": "apple",
+        "ru": "яблоко",
+        "es": "manzana"
+      },
+      {
+        "en": "banana",
+        "ru": "банан",
+        "es": "banana"
+      },
+      {
+        "en": "fish",
+        "ru": "рыба",
+        "es": "pescado"
+      },
+      {
+        "en": "bread",
+        "ru": "хлеб",
+        "es": "pan"
+      },
+      {
+        "en": "groceries",
+        "ru": "продукты",
+        "es": "dulces"
+      },
+      {
+        "en": "cheese",
+        "ru": "сыр",
+        "es": "queso"
+      },
+      {
+        "en": "pumpkin",
+        "ru": "тыква",
+        "es": "calabaza"
+      },
+      {
+        "en": "shrimp",
+        "ru": "креветка",
+        "es": "molusco"
+      },
+      {
+        "en": "tomato",
+        "ru": "помидор",
+        "es": "tomate"
+      },
+      {
+        "en": "cabbage",
+        "ru": "капуста",
+        "es": "lechuga"
+      },
+      {
+        "en": "water",
+        "ru": "вода",
+        "es": "agua"
+      }
+    ]
+  },
+  {
+    "name": {
+      "en": "animals",
+      "es": "animales"
+    },
+    "icon": "fish.jpg",
+    "words": [
+      {
+        "en": "chick",
+        "ru": "цыпленок",
+        "es": "pollito"
+      },
+      {
+        "en": "whale",
+        "ru": "кит",
+        "es": "ballena"
+      },
+      {
+        "en": "pig",
+        "ru": "свинья",
+        "es": "cerdo"
+      },
+      {
+        "en": "fox",
+        "ru": "лиса",
+        "es": "zorro"
+      },
+      {
+        "en": "koala",
+        "ru": "коала",
+        "es": "koala"
+      },
+      {
+        "en": "tiger",
+        "ru": "тигр",
+        "es": "tigre"
+      },
+      {
+        "en": "crab",
+        "ru": "краб",
+        "es": "cangrejo"
+      },
+      {
+        "en": "bull",
+        "ru": "бык",
+        "es": "toro"
+      },
+      {
+        "en": "hedgehog",
+        "ru": "ёжик",
+        "es": "???"
+      },
+      {
+        "en": "hippo",
+        "ru": "гиппопотам",
+        "es": "hipopotamo"
+      },
+      {
+        "en": "lemur",
+        "ru": "лемур",
+        "es": "lemur"
+      },
+      {
+        "en": "zebra",
+        "ru": "зебра",
+        "es": "zebra"
+      }
+    ]
+  },
+  {
+    "name": { "en": "body", "es": "cuerpo" },
+    "icon": "fish1.jpg",
+    "words": [
+      {
+        "en": "head",
+        "ru": "голова",
+        "es": "cabeza"
+      },
+      {
+        "en": "neck",
+        "ru": "шея",
+        "es": "cuello"
+      },
+      {
+        "en": "hand",
+        "ru": "рука",
+        "es": "mano"
+      },
+      {
+        "en": "nose",
+        "ru": "нос",
+        "es": "nariz"
+      },
+      {
+        "en": "skull",
+        "ru": "череп",
+        "es": "craneo"
+      },
+      {
+        "en": "ear",
+        "ru": "ухо",
+        "es": "oreja"
+      },
+      {
+        "en": "tooth",
+        "ru": "зуб",
+        "es": "diente"
+      },
+      {
+        "en": "stomach",
+        "ru": "желудок",
+        "es": "estomago"
+      }
+    ]
+  },
+  {
+    "name": { "es": "naturaleza", "en": "nature" },
+    "icon": "dog.jpg",
+    "words": [
+      {
+        "en": "forest",
+        "ru": "лес",
+        "es": "bosque"
+      },
+      {
+        "en": "beach",
+        "ru": "пляж",
+        "es": "playa"
+      },
+      {
+        "en": "lake",
+        "ru": "озеро",
+        "es": "lago"
+      },
+      {
+        "en": "volcano",
+        "ru": "вулкан",
+        "es": "volcán"
+      },
+      {
+        "en": "rainbow",
+        "ru": "радуга",
+        "es": "arcoiris"
+      },
+      {
+        "en": "desert",
+        "ru": "пустыня",
+        "es": "desierto"
+      },
+      {
+        "en": "snow",
+        "ru": "снег",
+        "es": "nieve"
+      },
+      {
+        "en": "tree",
+        "ru": "дерево",
+        "es": "arbol"
+      },
+      {
+        "en": "flower",
+        "ru": "цветок",
+        "es": "flor"
+      },
+      {
+        "en": "mountain",
+        "ru": "гора",
+        "es": "montaña"
+      }
+    ]
+  }
+  
+]
