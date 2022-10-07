@@ -4,31 +4,27 @@
       "es": "Acciones",
       "en": "Actions"
     },
-    "icon": "action1.png",
+    "icon": "cry.jpg",
     "words": [
       {
         "en": "cry",
         "es": "llorar",
         "ru": "ракета"
-      }
-    ]
-  },
-  {
-    "name": {
-      "es": "comida",
-      "en": "food"
-    },
-    "icon": "action2.png",
-    "words": [
-      {
-        "en": "apple",
-        "ru": "яблоко",
-        "es": "manzana"
       },
       {
-        "en": "banana",
-        "ru": "банан",
-        "es": "banana"
+        "en": "dance",
+        "ru": "танцевать",
+        "es": "bailar"
+      },
+      {
+        "en": "dive",
+        "ru": "танцевать",
+        "es": "bucear"
+      },
+      {
+        "en": "draw",
+        "ru": "танцевать",
+        "es": "dibujar"
       },
       {
         "en": "fish",
@@ -36,116 +32,314 @@
         "es": "pescado"
       },
       {
-        "en": "bread",
-        "ru": "хлеб",
-        "es": "pan"
+        "en": "fly",
+        "ru": "рыба",
+        "es": "volar"
       },
       {
-        "en": "groceries",
-        "ru": "продукты",
-        "es": "dulces"
+        "en": "hug",
+        "ru": "рыба",
+        "es": "abrazar"
       },
       {
-        "en": "cheese",
-        "ru": "сыр",
-        "es": "queso"
-      },
-      {
-        "en": "pumpkin",
-        "ru": "тыква",
-        "es": "calabaza"
-      },
-      {
-        "en": "shrimp",
-        "ru": "креветка",
-        "es": "molusco"
-      },
-      {
-        "en": "tomato",
-        "ru": "помидор",
-        "es": "tomate"
-      },
-      {
-        "en": "cabbage",
-        "ru": "капуста",
-        "es": "lechuga"
-      },
-      {
-        "en": "water",
-        "ru": "вода",
-        "es": "agua"
+        "en": "jump",
+        "ru": "рыба",
+        "es": "saltar"
       }
     ]
   },
   {
     "name": {
-      "en": "animals",
-      "es": "animales"
+      "es": "frutas",
+      "en": "fruits"
+    },
+    "icon": "orange.jpg",
+    "words": [
+      {
+        "en": "orange",
+        "ru": "яблоко",
+        "es": "naranja"
+      },
+      {
+        "en": "lemon",
+        "ru": "банан",
+        "es": "limon"
+      },
+      {
+        "en": "watermelon",
+        "ru": "рыба",
+        "es": "sandia"
+      },
+      {
+        "en": "grape",
+        "ru": "хлеб",
+        "es": "uva"
+      },
+      {
+        "en": "coconut",
+        "ru": "продукты",
+        "es": "coco"
+      },
+      {
+        "en": "pomegranate",
+        "ru": "сыр",
+        "es": "granada"
+      },
+      {
+        "en": "blueberry",
+        "ru": "тыква",
+        "es": "arándano"
+      },
+      {
+        "en": "plum",
+        "ru": "креветка",
+        "es": "ciruela"
+      }
+    ]
+  },
+  {
+    "name": {
+      "en": "animals1",
+      "es": "animales1"
+    },
+    "icon": "cat.jpg",
+    "words": [
+      {
+        "en": "cat",
+        "ru": "цыпленок",
+        "es": "gato"
+      },
+      {
+        "en": "chick",
+        "ru": "кит",
+        "es": "pollito"
+      },
+      {
+        "en": "chicken",
+        "ru": "свинья",
+        "es": "gallina"
+      },
+      {
+        "en": "dog",
+        "ru": "лиса",
+        "es": "perro"
+      },
+      {
+        "en": "horse",
+        "ru": "коала",
+        "es": "caballo"
+      },
+      {
+        "en": "pig",
+        "ru": "тигр",
+        "es": "cerdo"
+      },
+      {
+        "en": "rabbit",
+        "ru": "краб",
+        "es": "conejo"
+      },
+      {
+        "en": "sheep",
+        "ru": "бык",
+        "es": "oveja"
+      }
+    ]
+  },
+
+  {
+    "name": {
+      "en": "animals2",
+      "es": "animales2"
     },
     "icon": "fish.jpg",
     "words": [
       {
-        "en": "chick",
+        "en": "bird",
         "ru": "цыпленок",
-        "es": "pollito"
+        "es": "ave"
       },
       {
-        "en": "whale",
+        "en": "fish",
         "ru": "кит",
-        "es": "ballena"
+        "es": "pescado"
       },
       {
-        "en": "pig",
+        "en": "frog",
         "ru": "свинья",
-        "es": "cerdo"
+        "es": "rana"
       },
       {
-        "en": "fox",
+        "en": "giraffe",
         "ru": "лиса",
-        "es": "zorro"
+        "es": "jirafa"
       },
       {
-        "en": "koala",
+        "en": "lion",
         "ru": "коала",
-        "es": "koala"
+        "es": "león"
       },
       {
-        "en": "tiger",
+        "en": "mouse",
         "ru": "тигр",
-        "es": "tigre"
+        "es": "ratón"
       },
       {
-        "en": "crab",
+        "en": "turtle",
         "ru": "краб",
-        "es": "cangrejo"
+        "es": "tortuga"
       },
       {
-        "en": "bull",
+        "en": "dolphin",
         "ru": "бык",
-        "es": "toro"
-      },
-      {
-        "en": "hedgehog",
-        "ru": "ёжик",
-        "es": "???"
-      },
-      {
-        "en": "hippo",
-        "ru": "гиппопотам",
-        "es": "hipopotamo"
-      },
-      {
-        "en": "lemur",
-        "ru": "лемур",
-        "es": "lemur"
-      },
-      {
-        "en": "zebra",
-        "ru": "зебра",
-        "es": "zebra"
+        "es": "delfin"
       }
     ]
   },
+
+
+  
+  {
+    "name": { "es": "vegetales", "en": "vegetables" },
+    "icon": "cucumber.jpg",
+    "words": [
+      {
+        "en": "cucumber",
+        "ru": "лес",
+        "es": "pepino"
+      },
+      {
+        "en": "asparagus",
+        "ru": "пляж",
+        "es": "espárrago"
+      },
+      {
+        "en": "carrot",
+        "ru": "озеро",
+        "es": "zanahoria"
+      },
+      {
+        "en": "garlic",
+        "ru": "вулкан",
+        "es": "ajo"
+      },
+      {
+        "en": "cabbage",
+        "ru": "радуга",
+        "es": "lechuga"
+      },
+      {
+        "en": "eggplant",
+        "ru": "пустыня",
+        "es": "berenjena"
+      },
+      {
+        "en": "corn",
+        "ru": "снег",
+        "es": "maíz"
+      },
+      {
+        "en": "onion",
+        "ru": "дерево",
+        "es": "cebolla"
+      }
+    ]
+  },
+
+  {
+    "name": { "es": "ropa", "en": "clothes" },
+    "icon": "skirt.jpg",
+    "words": [
+      {
+        "en": "skirt",
+        "ru": "учиться",
+        "es": "falda"
+      },
+      {
+        "en": "pants",
+        "ru": "читать",
+        "es": "pantalones"
+      },
+      {
+        "en": "blouse",
+        "ru": "плакать",
+        "es": "blusa"
+      },
+      {
+        "en": "dress",
+        "ru": "играть",
+        "es": "vestido"
+      },
+      {
+        "en": "boot",
+        "ru": "говорить",
+        "es": "botas"
+      },
+      {
+        "en": "shirt",
+        "ru": "побеждать",
+        "es": "camiseta"
+      },
+      {
+        "en": "coat",
+        "ru": "танцевать",
+        "es": "abrigo"
+      },
+      {
+        "en": "shoe",
+        "ru": "плавать",
+        "es": "zapatos"
+      }
+    ]
+  },
+
+  {
+    "name": { "es": "emociones", "en": "emotions" },
+    "icon": "sad.jpg",
+    "words": [
+      {
+        "en": "sad",
+        "ru": "белый",
+        "es": "triste"
+      },
+      {
+        "en": "angry",
+        "ru": "желтый",
+        "es": "enojado"
+      },
+      {
+        "en": "happy",
+        "ru": "оранжевый",
+        "es": "feliz"
+      },
+      {
+        "en": "tired",
+        "ru": "красный",
+        "es": "cansado"
+      },
+      {
+        "en": "surprised",
+        "ru": "фиолетовый",
+        "es": "sorprendido"
+      },
+      {
+        "en": "scared",
+        "ru": "синий",
+        "es": "asustado"
+      },
+      {
+        "en": "smile",
+        "ru": "зеленый",
+        "es": "sonreir"
+      },
+      {
+        "en": "laugh",
+        "ru": "коричневый",
+        "es": "reir"
+      }
+    ]
+  },
+
   {
     "name": { "en": "body", "es": "cuerpo" },
     "icon": "fish1.jpg",
@@ -192,61 +386,276 @@
       }
     ]
   },
+
+
   {
-    "name": { "es": "naturaleza", "en": "nature" },
-    "icon": "dog.jpg",
+    "name": { "es": "colores", "en": "colors" },
+    "icon": "<i class='fa-light fa-brush'></i>",
     "words": [
       {
-        "en": "forest",
-        "ru": "лес",
-        "es": "bosque"
+        "en": "white",
+        "ru": "белый",
+        "es": "blanco"
       },
       {
-        "en": "beach",
-        "ru": "пляж",
-        "es": "playa"
+        "en": "yellow",
+        "ru": "желтый",
+        "es": "amarillo"
       },
       {
-        "en": "lake",
-        "ru": "озеро",
-        "es": "lago"
+        "en": "orange",
+        "ru": "оранжевый",
+        "es": "naranja"
       },
       {
-        "en": "volcano",
-        "ru": "вулкан",
-        "es": "volcán"
+        "en": "red",
+        "ru": "красный",
+        "es": "rojo"
       },
       {
-        "en": "rainbow",
-        "ru": "радуга",
-        "es": "arcoiris"
+        "en": "purple",
+        "ru": "фиолетовый",
+        "es": "morado"
       },
       {
-        "en": "desert",
-        "ru": "пустыня",
-        "es": "desierto"
+        "en": "blue",
+        "ru": "синий",
+        "es": "azul"
       },
       {
-        "en": "snow",
-        "ru": "снег",
-        "es": "nieve"
+        "en": "green",
+        "ru": "зеленый",
+        "es": "verde"
       },
       {
-        "en": "tree",
-        "ru": "дерево",
-        "es": "arbol"
+        "en": "brown",
+        "ru": "коричневый",
+        "es": "café"
       },
       {
-        "en": "flower",
-        "ru": "цветок",
-        "es": "flor"
+        "en": "pink",
+        "ru": "розовый",
+        "es": "rosado"
       },
       {
-        "en": "mountain",
-        "ru": "гора",
-        "es": "montaña"
+        "en": "black",
+        "ru": "черный",
+        "es": "negro"
+      }
+    ]
+  },
+  {
+    "name": { "es": "familia", "en": "family" },
+    "icon": "<i class='fa-light fa-family'></i>",
+    "words": [
+      {
+        "en": "family",
+        "ru": "семья",
+        "es": "familia"
+      },
+      {
+        "en": "mother",
+        "ru": "мама",
+        "es": "madre"
+      },
+      {
+        "en": "father",
+        "ru": "папа",
+        "es": "padre"
+      },
+      {
+        "en": "sister",
+        "ru": "сестра",
+        "es": "hermana"
+      },
+      {
+        "en": "brother",
+        "ru": "брат",
+        "es": "hermano"
+      },
+      {
+        "en": "pet",
+        "ru": "питомец",
+        "es": "mascota"
+      },
+      {
+        "en": "grandma",
+        "ru": "бабушка",
+        "es": "abuela"
+      },
+      {
+        "en": "grandpa",
+        "ru": "дедушка",
+        "es": "abuelo"
+      }
+    ]
+  },
+  {
+    "name": { "es": "hogar", "en": "home" },
+    "icon": "<i class='fa-light fa-house-day'></i>",
+    "words": [
+      {
+        "en": "armchair",
+        "ru": "кресло",
+        "es": "???"
+      },
+      {
+        "en": "mirror",
+        "ru": "зеркало",
+        "es": "espejo"
+      },
+      {
+        "en": "kitchen",
+        "ru": "кухня",
+        "es": "cocina"
+      },
+      {
+        "en": "bed",
+        "ru": "кровать",
+        "es": "cama"
+      },
+      {
+        "en": "toilet",
+        "ru": "туалет",
+        "es": "baño"
+      },
+      {
+        "en": "door",
+        "ru": "дверь",
+        "es": "puerta"
+      },
+      {
+        "en": "window",
+        "ru": "окно",
+        "es": "ventana"
+      },
+      {
+        "en": "fridge",
+        "ru": "холодильник",
+        "es": "congelador"
+      },
+      {
+        "en": "chair",
+        "ru": "стул",
+        "es": "silla"
+      },
+      {
+        "en": "bath",
+        "ru": "ванная",
+        "es": "baño"
+      },
+      {
+        "en": "house",
+        "ru": "дом",
+        "es": "casa"
+      },
+      {
+        "en": "couch",
+        "ru": "диван",
+        "es": "sofá"
+      }
+    ]
+  },
+  {
+    "name": { "es": "ciudad", "en": "city" },
+    "icon": "<i class='fa-light fa-city'></i>",
+    "words": [
+      {
+        "en": "bus",
+        "ru": "автобус",
+        "es": "bus"
+      },
+      {
+        "en": "factory",
+        "ru": "завод",
+        "es": "fabrica"
+      },
+      {
+        "en": "park",
+        "ru": "парк",
+        "es": "parque"
+      },
+      {
+        "en": "excavator",
+        "ru": "экскаватор",
+        "es": "excavadora"
+      },
+      {
+        "en": "city",
+        "ru": "город",
+        "es": "ciudad"
+      },
+      {
+        "en": "church",
+        "ru": "церковь",
+        "es": "iglesia"
+      },
+      {
+        "en": "police",
+        "ru": "полиция",
+        "es": "policia"
+      },
+      {
+        "en": "building",
+        "ru": "здание",
+        "es": "edificio"
+      },
+      {
+        "en": "subway",
+        "ru": "метро",
+        "es": "metro"
+      },
+      {
+        "en": "taxi",
+        "ru": "такси",
+        "es": "taxi"
+      }
+    ]
+  },
+  {
+    "name": { "es": "emociones", "en": "emotions" },
+    "icon": "<i class='fa-light fa-face-laugh-wink'></i>",
+    "words": [
+      {
+        "en": "happy",
+        "ru": "счастье",
+        "es": "feliz"
+      },
+      {
+        "en": "confusion",
+        "ru": "смущение",
+        "es": "confusion"
+      },
+      {
+        "en": "sad",
+        "ru": "грусть",
+        "es": "triste"
+      },
+      {
+        "en": "excitement",
+        "ru": "возбуждение",
+        "es": "emocionado"
+      },
+      {
+        "en": "anxiety",
+        "ru": "беспокойство",
+        "es": "ansiedad"
+      },
+      {
+        "en": "friendship",
+        "ru": "дружба",
+        "es": "amistad"
+      },
+      {
+        "en": "love",
+        "ru": "любовь",
+        "es": "amor"
+      },
+      {
+        "en": "anger",
+        "ru": "злость",
+        "es": "ira"
       }
     ]
   }
-  
 ]
