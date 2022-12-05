@@ -1,4 +1,4 @@
-import { myGame } from '../game';
+import { myGame } from '../Game';
 import { renderCategories, renderContentCategory } from '../Render';
 import {
   routes,

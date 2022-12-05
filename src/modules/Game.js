@@ -1,11 +1,8 @@
-import { Words } from './Word';
-import { Categories } from './Category';
-import Store from './Store';
-import { Import } from './Imports';
+import data from '../data/words.json';
 import { myRouter } from './router/router';
-import { getContentCategory } from './Render';
 
-const initialHash = '#all-categories';
+const INITIAL_HASH = '#all-categories';
+
 class Game {
   constructor(
     mode = 'train',
@@ -28,43 +25,76 @@ class Game {
     return this.mode;
   }
 
-  setCategory (categoryName){
-    this.currentCategory = categoryName
+  set category(categoryName) {
+    this.currentCategory = categoryName;
   }
 
+  get category() {
+    return this.currentCategory;
+  }
 
-  initMode() {
-    this.playSwitcher = document.querySelector('#checkbox-mode');
+  initMode = () => {
+    const playSwitcher = document.querySelector('#checkbox-mode');
     const startRepeatbtn = document.getElementById('play-repeat-btn');
 
-    this.playSwitcher.addEventListener('click', (event) => {
+    playSwitcher.addEventListener('click', (event) => {
       const currentLocation = myRouter.getCurrentPage();
       console.log('checking what cr', currentLocation);
-      if (this.mode === 'train') {
+
+      if (myGame.getMode() === 'train') {
         this.setMode('play');
-        if (currentLocation !== initialHash) {
+        if (currentLocation !== INITIAL_HASH) {
           startRepeatbtn.style.display = 'block';
         }
       } else {
         this.setMode('train');
-        if (currentLocation !== initialHash) {
+        if (currentLocation !== INITIAL_HASH) {
           startRepeatbtn.style.display = 'none';
         }
       }
     });
 
     startRepeatbtn.addEventListener('click', () => {
-      this.start();
+      this.getARandomCard();
     });
+  };
+
+  getARandomCard() {
+    // const categoryData = getContentCategory(this.category);
+    console.log('test', categoryData);
+    const randomNumber = Math.floor(Math.random() * categoryData.words.length);
+    this.excludedCards.push(randomNumber);
+
+    const cardInfo = this.categoryData.words[randomNumber];
+
+    // if (myGame.getMode() === 'play') {
+    const audioPath = `./data/audio/${cardInfo[this.targetLanguage]}.mp3`;
+    console.log('checking audio path');
+    playAudio(audioPath);
+    // }
+
+    console.log('checking random card', cardInfo);
+    console.log('testing random number', randomNumber);
   }
 
-  start() {
-    //getting the data of the rendered category
-    const currentInfoRendered = getContentCategory(this.currentCategory);
-    console.log('checking currentINfoRendered', currentInfoRendered);
+  getAllData (){
+    return data;
   }
 }
 
+getContentCategory = (categoryName) => {
+  const categoryClean = categoryName.replace('#category-', '');
+  const categoryData = data.filter((info) => {
+    return info.name.es === categoryClean;
+  });
+
+  if (categoryData.length > 0) {
+    return categoryData[0];
+  }
+  return [];
+};
+
 const myGame = new Game();
+
 
 export { myGame };
