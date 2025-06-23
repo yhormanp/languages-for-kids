@@ -1,5 +1,5 @@
 import { playAudio } from './Audio';
-import { myGame } from './game';
+import { myGame } from './Game';
 
 export class Card {
   constructor(name, image) {
